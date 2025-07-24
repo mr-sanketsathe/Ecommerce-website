@@ -1,0 +1,67 @@
+.navbar{
+    width:100wh;
+    height:4rem;
+    display: flex;
+    align-items: center;
+    background-color:black;
+    color: white;
+    padding: 1rem 0rem;
+}
+
+.amezon-logo{
+    width:10%;
+}
+.location{
+    width:10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height:0.2rem;
+}
+.location-user{
+    margin-left:1.5rem;
+    font-size:13px;
+    opacity: 0.8;
+}
+.location-state{
+    font-weight: 700;
+}
+
+.search-box{
+    width:40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+.search-select{
+    height: 100%;
+    width:4rem;
+    background-color: rgb(185, 185, 185);
+    border: none;
+    border-top-left-radius:0.2rem;
+     border-bottom-left-radius:0.2rem;
+}
+.search-select-item{
+    font-size:0.5rem;
+
+
+}
+.search-input{
+    flex-grow: 1;
+    height: 100%;
+    outline: none;
+    border: none;
+}
+
+.search-btn{
+    height: 100%;
+      width:3rem;
+    background-color: yellow;
+    border: none;
+      border-top-right-radius:0.2rem;
+     border-bottom-right-radius:0.2rem;
+
+}
+
