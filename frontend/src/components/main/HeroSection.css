@@ -1,0 +1,22 @@
+.image-box{
+    width:100%;
+    height:70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    border-radius: 0.5rem; 
+}
+.hero-image{
+    width:100%;
+    height:100%;
+    border-radius: 0.5rem;
+
+}
+.arrow i{
+    font-size: 4rem;
+    color:black;  
+}
+
+
+

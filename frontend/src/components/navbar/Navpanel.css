@@ -1,0 +1,17 @@
+.panel{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    padding:1rem 2rem;
+    height: 2.5rem;
+    gap:2rem;
+    position: absolute;
+    top:5rem;
+    background-color: white;
+    width: 100%;
+
+}
+.panel-item{
+    font-size: 1rem;
+    color: black;
+}

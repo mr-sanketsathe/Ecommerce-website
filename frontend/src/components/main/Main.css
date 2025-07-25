@@ -1,0 +1,12 @@
+.Main{
+    height:100vh;
+    padding-top:10rem;
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-bottom: 2rem;
+    overflow-y: scroll;
+    z-index: -1;
+}
+.Main::-webkit-scrollbar{
+    display: none;
+}
