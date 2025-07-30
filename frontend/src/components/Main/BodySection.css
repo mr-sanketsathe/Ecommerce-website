@@ -1,0 +1,12 @@
+.main-section{
+    flex: 1;
+    width: 100%;
+    background: red;
+    overflow-y: scroll;
+}
+
+.page{
+    width: 100%;
+    background:green;
+    height: 100%;
+}
