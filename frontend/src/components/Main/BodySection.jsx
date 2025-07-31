@@ -8,10 +8,12 @@ import Electronics from "./Electronics/Electronics"
 import HomeKitchen from "./HomeKitchen/HomeKitchen"
 import Offers from "./Offers/Offers"
 import NewArrivals from "./New Arrivals/NewArrivals"
+import Navbar from "../navbar/Navbar"
 export default function BodySection(){
     return(
         <div className="main-section">
            <BrowserRouter>
+            <Navbar/>
            <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/men" element={<Men/>}/>
@@ -21,8 +23,10 @@ export default function BodySection(){
             <Route path="/offers" element={<Offers/>}/>
             <Route path="/newarrivals" element={<NewArrivals/>}/>
            </Routes>
+            {/* <Footer/> */}
            </BrowserRouter>
-            <Footer/>
+           
+            
         </div>
     )
 }

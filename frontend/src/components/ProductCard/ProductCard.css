@@ -1,0 +1,40 @@
+.productCard{
+    width:18%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid rgb(217, 205, 205);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    gap:0.5rem;
+}
+.product-imge{
+    border-radius: 0.5rem;
+    width:100%;
+    flex: 1;
+}
+.product-desc{
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+
+
+}
+.prod-name, .prod-price{
+    font-size:1rem;
+    font-weight: 500;
+}
+.old-price{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.Cart-btn{
+    width: 70%;
+    height:5vh;
+    border: none;
+    background-color: rgb(47, 47, 240);
+    color: white;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
