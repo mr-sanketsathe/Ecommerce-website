@@ -23,7 +23,7 @@ export default function BodySection(){
             <Route path="/offers" element={<Offers/>}/>
             <Route path="/newarrivals" element={<NewArrivals/>}/>
            </Routes>
-            {/* <Footer/> */}
+            <Footer/>
            </BrowserRouter>
            
             
