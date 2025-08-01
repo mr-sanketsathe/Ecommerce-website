@@ -1,5 +1,11 @@
 .footer-section{
     width: 100%;
-    background:blue;
+    background-color: white;
     height: 5rem;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top:1px solid rgb(217, 205, 205);
 }
